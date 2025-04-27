@@ -38,7 +38,7 @@ vim.api.nvim_create_autocmd("FileType", {
 autocmd({ "InsertLeave" }, {
   nested = true, -- for format on save
   callback = function()
-    if vim.bo.filetype ~= "" and vim.bo.buftype == "" and vim.bo.filetype ~= "python" then
+    if vim.bo.filetype ~= "" and vim.bo.buftype == "" then
       vim.cmd("silent! w")
     end
   end,
