@@ -72,7 +72,8 @@ return {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme = "sonokai",
-      colorscheme = "oldworld",
+      colorscheme = "gruvbox",
+      -- colorscheme = "oldworld",
       -- colorscheme = "bluloco",
       -- colorscheme = "catppuccin",
       -- colorscheme = "poimandres",
